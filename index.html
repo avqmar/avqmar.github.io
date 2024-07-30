@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aviral Kumar - Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        .content-section {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 5px 0;
+        }
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form label, .contact-form input, .contact-form textarea {
+            margin: 5px 0;
+        }
+        .contact-form input, .contact-form textarea {
+            padding: 10px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .contact-form button {
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Aviral Kumar</h1>
+            <p><a href="mailto:aviralk@alumni.cmu.edu">aviralk@alumni.cmu.edu</a> | <a href="https://linkedin.com/in/aviral-kumar" target="_blank">LinkedIn</a></p>
+        </div>
+    </header>
+    <div class="container">
+        <section class="content-section">
+            <h2>About Me</h2>
+            <p>Experienced Machine Learning Engineer with over 4 years of hands-on experience specializing in Computational Mechanics, Machine Learning, and MLOps. Proven expertise in project management and team leadership, consistently delivering successful ML products. Seeking roles in Product Management, Data Science, and ML & AI Engineering; Open to relocation.</p>
+        </section>
+        <section class="content-section">
+            <h2>Work Experience</h2>
+            <ul>
+                <li>
+                    <h3>Head Manager | Neurogazer Inc. | Seoul, South Korea | August 2023 – Current</h3>
+                    <ul>
+                        <li>Developed and deployed Graph NN classification model: Achieved 86% F1-score and 89% accuracy for predicting Mild Cognitive Impairment using sMRI and rsfMRI data. Managed the model's development, deployment, and maintenance.</li>
+                        <li>Implemented AI-driven counselling service: Used RAG framework with Llama 2 7B model and Dense Passage Retrieval, reducing brain analysis consultation time by 30%.</li>
+                        <li>Cost Reduction: Reduced service operation costs by 12% through a Node.js application hosted on AWS Lambda. JS application generated personalized brain analysis reports using GPT-3.5 turbo based on MRI Analysis results.</li>
+                        <li>Team Leadership: Led a team of 6 as the product owner, increasing user adoption of the Brain Analysis Service by 20%. Oversaw development, operations design, cost optimization, web analytics, and ML system design.</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Researcher | Neurogazer USA Inc. | Baltimore, USA | June 2020 – May 2023</h3>
+                    <ul>
+                        <li>Brain Age Prediction: Achieved 84% accuracy using a Graph Conv NN on topographic and morphometric information from T1w MRI. Project included understanding of graph data structures, GCNN architecture design and brain anatomy.</li>
+                        <li>Novel Segmentation Method: Developed a method for segmenting cortex using a spatial-temporal graph convolutional autoencoder applied to rs-fMRI time series and diffusion tractography data. Integrated deep embedded clustering framework to perform unsupervised segmentation task.</li>
+                        <li>Dimensionality Reduction: Improved Alzheimer's Disease Assessment Scale prediction by 21% using contrastive PCA for dimensionality reduction.</li>
+                        <li>Residual Network Model: Achieved 91% accuracy in predicting the quality of anatomical MRI scans. Managed the entire project lifecycle from training to deployment and maintenance.</li>
+                        <li>Models for learning Spatial-Temporal Patterns: Increased prediction accuracy by 12% using spatial-temporal trajectories of brain networks in customers with autism, computed using an LSTM autoencoder.</li>
+                        <li>Attention U-Net Model: Achieved an average dice similarity of 0.87 in predicting labels for 76 different cortical regions of interest through MR image segmentation. Conducted extensive hyperparameter tuning and model optimization to achieve high segmentation accuracy.</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Finite Element Analysis Engineer | Quest Global | Bangalore, India | Jan 2017 – June 2018</h3>
+                    <ul>
+                        <li>Conducted Transient Thermal and Thermo-Structural Computational Analysis on the GE LT-16 gas turbine fuel nozzle to identify and address thermal-related design issues.</li>
+                        <li>Performed design validation for the GE Haliade-X wind turbine's rear frame through static structural, buckling, and fatigue analyses, proposing design improvements based on findings.</li>
+                        <li>Estimated fatigue life of locomotive truck components utilizing Shock and Fatigue Analysis, assisting in the optimization of part durability.</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section class="content-section">
+            <h2>Education</h2>
+            <ul>
+                <li>Master of Science in Mechanical Engineering | Carnegie Mellon University | Pittsburgh, USA | May 2020</li>
+                <li>Bachelor of Engineering in Mechanical Engineering | PES Institute of Technology | Bangalore, India | June 2016</li>
+            </ul>
+        </section>
+        <section class="content-section">
+            <h2>Skills & Tools</h2>
+            <ul>
+                <li>Programming: Python, bash, R, MATLAB, SQL, C++, JavaScript</li>
+                <li>Containerization: Docker, Singularity</li>
+                <li>Cloud services: AWS, MongoDB, IBM Db2, GCP, Terraform</li>
+                <li>Code versioning: Git, Bitbucket, GitHub, GitLab</li>
+                <li>Python libraries: NumPy, Pandas, Matplotlib, SciPy, scikit-learn, Keras, PyTorch, PyG, TensorFlow, boto3, Flask, transformers</li>
+                <li>Analytical Skills: Data cleaning, preparation, and visualization, Feature Engineering, Regression, Classification, Clustering, Segmentation, Time Series Analysis, Signal Processing.</li>
+                <li>Project Management: Jira, Monday.com, Confluence, Tableau</li>
+            </ul>
+        </section>
+        <section class="content-section">
+            <h2>Publications</h2>
+            <ul>
+                <li><a href="https://doi.org/10.1021/acs.iecr.3c02285" target="_blank">Computational Study on the Effect of Thermal Boundary Conditions and Axial Aspect Ratio on Catalytic Oxidative Coupling of Methane</a>, C Wadkar, A Kumar, H Lee et al., Industrial & Engineering Chemistry Research, 2023</li>
+                <li><a href="https://scholar.google.com/scholar?oi=bibs&cluster=2276330112524039675&btnI=1&hl=en" target="_blank">Coordinated anatomical and functional variability in the human brain during adolescence</a>, J Bero, Y Li, A Kumar, C Humphries, S Nag et al., Human Brain Mapping, 2022</li>
+            </ul>
+        </section>
+        <section class="content-section">
+            <h2>Certifications</h2>
+            <ul>
+                <li><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/MP3EM7D96J96" target="_blank">Machine Learning Specialization</a> (MP3EM7D96J96)</li>
+                <li><a href="https://www.coursera.org/account/accomplishments/verify/83K3Y6U9KPUE" target="_blank">Algorithmic Toolbox - University of California San Diego</a> (83K3Y6U9KPUE)</li>
+                <li><a href="https://www.coursera.org/account/accomplishments/certificate/8B722FYBHBZB" target="_blank">Databases and SQL for Data Science authorized by IBM</a> (8B722FYBHBZB)</li>
+                <li><a href="https://www.coursera.org/account/accomplishments/certificate/753MFMWLHHLH" target="_blank">Operations Research (1): Models and Applications - National Taiwan University</a> (753MFMWLHHLH)</li>
+            </ul>
+        </section>
+        <section class="content-section">
+            <h2>Contact</h2>
+            <form class="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Aviral Kumar</p>
+    </footer>
+</body>
+</html>
